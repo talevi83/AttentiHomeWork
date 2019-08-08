@@ -26,9 +26,9 @@ The project devided into several clsses:<br>
  * WeatherTests - this class contains the tests for the weather, Weather.com vs openweathermap api.
  * SeleniumWebDriverKiller - this class's role is to close the webdriver after the tests are done (using SeleniumActions).
  
- * * under src/main/test/resources:
-   * * ChromeDrivers - keep the chromedrivers for linux and for macOS.
-   * * TestPlan - holds the TestNG XML suite file that run's the test classes.
+ * under src/main/test/resources:
+   * ChromeDrivers - keep the chromedrivers for linux and for macOS.
+   * TestPlan - holds the TestNG XML suite file that run's the test classes.
        The test classes run's first and after them the class SeleniumWebDriverKiller.
     
    * conf.properties - holds project parameters such as Xpaths, Url's Texts, Urls, API Key (appid) for the weather api, zip code for the weather location etc..<br>
