@@ -5,7 +5,7 @@ The file is in this path in the project: /src/test/resources/TestPlan/RunTests.x
 
 Design:
 The project devided into several clsses:<br>
-Under src/main/java/ there are the following packages:<br>
+<u><b>Under src/main/java/ there are the following packages:</b></u><<br>
 Data - contains WeatherData - a class that holds weather data such as Temperature, Humidity, Wind, Pressure.<br>
 Properties - contains a Singleton class that reading the project properties from conf.properties file (locate in /src/test/resources)<br>
 RestAPI - contains classes that operates the Rest API operations:
