@@ -18,7 +18,7 @@ public class WeatherRestActions {
         attributes.put("units", prop.getProperty("unit"));
         attributes.put("appid", prop.getProperty("appid"));
         RestApiResponse response = rest.setBaseUrl(prop.getProperty("baseUrlAPI")).addAttribute(attributes).setRestMethod("get").build();
-        Assert.assertEquals(response.getResponseCode(), 200, "The response code is not 200. something went wrong.");
+        Assert.assertEquals(response.getResponseCode(), 200, "The response code is not 200. something went wrong. response code = " + response.getResponseCode());
 
         return extractDataFromResponse(response);
     }

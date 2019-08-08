@@ -89,8 +89,6 @@ public class RestAPI {
         RestApiResponse response = new RestApiResponse();
 
         response.setResponseCode(con.getResponseCode());
-        Assert.assertTrue(response.getResponseCode() < 300 || response.getResponseCode() == 404, "Response code: " + response.getResponseCode() + ".");
-
         response.setResponseMessage(con.getResponseMessage());
 
         InputStream in = new BufferedInputStream(con.getInputStream());
