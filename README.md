@@ -23,7 +23,7 @@ The project divided into several classes:<br>
 
 <b>Under src/main/test there are the following classes:</b>
  * MetricConvertionTests - this class contains the tests for the Metric Conversion.
- * WeatherTests - this class contains the tests for the weather, Weather.com vs openweathermap api.
+ * WeatherTests - this class contains the tests for the weather, Weather.com vs openweathermap API.
  * SeleniumWebDriverKiller - this class's role is to close the webdriver after the tests are done (using SeleniumActions).
  
  * under src/main/test/resources:
@@ -31,7 +31,7 @@ The project divided into several classes:<br>
    * TestPlan - holds the TestNG XML suite file that run's the test classes.
        The test classes run first and after them the class SeleniumWebDriverKiller.
     
-   * conf.properties - holds project parameters such as Xpaths, Url's Texts, Urls, API Key (appid) for the weather api, zip code for the weather location, etc..<br>
+   * conf.properties - holds project parameters such as Xpaths, Url's Texts, Urls, API Key (appid) for the weather API, zip code for the weather location, etc..<br>
    
  
  
