@@ -34,7 +34,7 @@ public class SeleniumActions {
         String os = System.getProperty("os.name");
         if(os.toLowerCase().equals("linux")) {
             System.out.println("This is a Linux OS -> opening linux webdriver...");
-            System.setProperty("webdriver.chrome.driver", "./src/test/resources/ChromeDrivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "./src/test/resources/ChromeDrivers/chromedriver_linux");
         } else {
             System.setProperty("webdriver.chrome.driver", "./src/test/resources/ChromeDrivers/chromedriver_mac");
         }
