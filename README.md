@@ -3,9 +3,9 @@ This project contains tests for Metric Conversion website and for weather.com vs
 This project is running by TestNG suite, therefore you need to run the test via the suite XML file:
 The file is in this path in the project: /src/test/resources/TestPlan/RunTests.xml, click on this file right click, then run.
 
-<b>Design:<b>
+<b>Design:</b>
 The project divided into several classes:<br>
-<b>Under src/main/java/ there are the following packages:</b><<br>
+<b>Under src/main/java/ there are the following packages:</b><br>
 <b>Data</b> - contains WeatherData - a class that holds weather data such as Temperature, Humidity, Wind, Pressure.<br>
 <b>Properties</b> - contains a Singleton class that reading the project properties from conf.properties file (locate in /src/test/resources)<br>
 <b>RestAPI- contains classes that operate the Rest API operations:</b> 
